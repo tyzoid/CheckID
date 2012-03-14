@@ -1,0 +1,12 @@
+name: CheckID
+main: tk.tyzoid.plugins.CheckID.CheckID
+version: 1.0.0
+author: Tyzoid
+permissions:
+    checkid.*:
+        description: Gives access to all CheckID commands
+        children:
+            checkid.check: true
+    checkid.check:
+        description: Allows users to use check the ID of the block in their hand.
+        default: true
